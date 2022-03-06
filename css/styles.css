@@ -4,3 +4,8 @@
     --color-text: #e1e1e1;
     --color-accent: #E1F943;
 }
+
+html{
+    /*62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
