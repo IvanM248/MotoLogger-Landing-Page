@@ -47,6 +47,7 @@ html {
   font-size: 2rem;
   padding: 0.5rem 2rem;
   border-bottom: 1px solid #222;
+  text-align: center;
 }
 
 .nav-item > a {
