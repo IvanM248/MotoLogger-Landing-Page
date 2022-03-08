@@ -28,7 +28,7 @@ html {
 
 .navbar-title {
   font-size: 3rem;
-  font-family: "Saira";
+  font-family: "Saira black";
   text-transform: uppercase;
   color: var(--color-text);
   text-decoration: none;
@@ -43,7 +43,7 @@ html {
 }
 
 .nav-item {
-  font-family: "Roboto";
+  font-family: "Saira";
   font-size: 2rem;
   padding: 0.5rem 2rem;
   border-bottom: 1px solid #222;
