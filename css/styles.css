@@ -28,7 +28,9 @@ html {
 
 .navbar-title {
   font-size: 3rem;
-  font-family: "Saira black";
+  font-family: 'Saira';
+  font-weight: 900;
+  font-style: italic;
   text-transform: uppercase;
   color: var(--color-text);
   text-decoration: none;
