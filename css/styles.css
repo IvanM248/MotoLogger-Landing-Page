@@ -10,6 +10,12 @@ html {
   font-size: 62.5%;
 }
 
+.home-page{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-primary-gray);
+}
+
 .icon {
   width: 40px;
   height: 40px;
@@ -104,6 +110,63 @@ html {
     }
 }
 
-body{
-    background-color: var(--color-primary-gray);
+.hero-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: min-content;
+  margin-right: 2.5rem;
+}
+
+.hero-title{
+  color: var(--color-text);
+  text-align: left;
+  font-size: 7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Saira';
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.hero-paragraph{
+  color: var(--color-text);
+  font-family: 'Saira';
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 20;
+  min-width: 0;
+}
+
+.hero-image{
+  max-height: 70%;
+  align-self: center;
+  justify-content: center;
+  margin-left: 2.5rem;
+}
+
+.btn{
+  font-family: 'Saira';
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background-color: var(--color-text);
+  color: var(--color-primary-gray);
 }
