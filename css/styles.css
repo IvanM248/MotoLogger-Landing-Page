@@ -8,6 +8,7 @@
 html {
   /* Normalize font size: 62.5% of 16px = 10px*/
   font-size: 62.5%;
+  background: var(--color-primary-gray);
 }
 
 .homepage-1{
@@ -15,7 +16,6 @@ html {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background: var(--color-primary-gray);
 }
 
 .icon {
