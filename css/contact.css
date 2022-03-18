@@ -1,0 +1,56 @@
+/* CSS styling for the Contact page */
+:root {
+	--color-text: #e1e1e1;
+	--color-secondary-gray: #1c1c1c;
+}
+
+.formContainer {
+	width: 70vw;
+	margin: 25vh auto 0;
+}
+
+form h3 {
+	text-align: center;
+	font-family: "Saira";
+	font-size: 30px;
+	color: var(--color-text);
+}
+
+form {
+	background: var(--color-secondary-gray);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+}
+
+form button {
+	font-family: "Saira";
+	width: auto;
+	padding: 15px;
+	background: #ff5361;
+	color: #ffff;
+	font-size: 20px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	/* margin 20px on top, auto left/right, 0 bottom */
+	margin: 20px auto 0;
+	border-radius: 5px;
+}
+
+form button:active {
+	background: #fc2e3f;
+}
+
+form input,
+form textarea {
+	font-family: "Saira";
+	border: 0;
+	margin: 10px 0;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;
+	font-size: 16px;
+}
