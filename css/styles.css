@@ -113,12 +113,12 @@ html {
 }
 
 /*Hero*/
-.hero {
+.hero{
   display: flex;
   margin: auto;
 }
 
-.hero-description {
+.hero-description{
   display: flex;
   flex-direction: column;
   width: min-content;
@@ -126,14 +126,14 @@ html {
   margin-right: 5rem;
 }
 
-.hero-image {
+.hero-image{
   margin-left: 5rem;
   width: 35%;
 }
 
-.hero-title {
+.hero-title{
   color: var(--color-text);
-  font-family: "Saira";
+  font-family: 'Saira';
   font-size: 7rem;
   font-weight: 700;
   font-style: italic;
@@ -143,18 +143,18 @@ html {
   text-align: left;
 }
 
-.hero-paragraph {
+.hero-paragraph{
   color: var(--color-text);
-  font-family: "Saira";
+  font-family: 'Saira';
   font-size: 2rem;
   font-weight: 400;
   margin-top: 0;
   text-align: left;
 }
 
-.hero-button {
+.hero-button{
   color: var(--color-text);
-  font-family: "Saira";
+  font-family: 'Saira';
   font-size: 1.5rem;
   padding: 1rem;
   background-color: transparent;
@@ -167,7 +167,44 @@ html {
   align-self: flex-start;
 }
 
-.hero-button:hover {
+.hero-button:hover{
   background-color: var(--color-text);
   color: var(--color-primary-gray);
+}
+
+@media screen and (max-width: 900px) {
+  .hero{
+    flex-direction: column-reverse;
+  }
+
+  .hero-image{
+    margin-left: 0;
+    align-self: center;
+  }
+  
+  .hero-description{
+    margin-top: 2rem;
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .hero-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-paragraph{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .hero-button{
+    align-self: center;
+    font-size: 1rem;
+  }
+
+  .navbar-title{
+    font-size: 2rem;
+  }
 }
