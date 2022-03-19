@@ -26,22 +26,35 @@ html {
     margin-bottom: 3.5rem;
 }
 
+.guide-section{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .guide-title {
 	color: var(--color-text);
 	font-size: 3rem;
     margin: 0;
     text-align: left;
     font-family: "Saira";
+    margin-bottom: 2rem;
+}
+
+.guide-section-title{
+    color: var(--color-text);
+    font-family: "Saira";
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 0;
 }
 
 .guide-paragraph{
     color: var(--color-text);
-    font-size: 2rem;
+    font-size: 1.95rem;
     margin: 0;
-    margin-top: 1rem;
     text-align: left;
     font-family: "Saira";
-    line-height: 2.75rem;
+    line-height: 1.5;
 }
 
 .guide-image{
