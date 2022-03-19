@@ -61,7 +61,15 @@ html {
     width: 25%;
     justify-self: center;
     align-self: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.guide-image-landscape{
+    width: 55%;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 2rem;
     margin-top: 1rem;
 }
 
