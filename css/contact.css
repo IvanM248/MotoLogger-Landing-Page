@@ -5,8 +5,23 @@
 }
 
 .formContainer {
-	width: 70vw;
-	margin: 25vh auto 0;
+	width: 65vw;
+	margin: 10vh auto 5vh;
+}
+
+@media screen and (max-width: 900px) {
+	.formContainer {
+		width: 80vw;
+		margin: 1vh auto;
+	}
+
+	form h3 {
+		font-size: 26px;
+	}
+
+	textarea {
+		height: 15rem;
+	}
 }
 
 form h3 {
@@ -21,6 +36,7 @@ form {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	padding: 2vw 4vw;
 	width: 90%;
 }
@@ -40,6 +56,20 @@ form button {
 	border-radius: 5px;
 }
 
+label,
+p {
+	font-family: "Saira";
+	font-size: 16px;
+	color: var(--color-text);
+}
+
+p {
+	font-size: 18px;
+	margin-top: unset;
+	text-align: center;
+	align-self: center;
+}
+
 form button:active {
 	background: #fc2e3f;
 }
@@ -47,10 +77,17 @@ form button:active {
 form input,
 form textarea {
 	font-family: "Saira";
+	padding-left: auto;
+	padding-right: auto;
 	border: 0;
 	margin: 10px 0;
 	padding: 20px;
 	outline: none;
 	background: #f5f5f5;
 	font-size: 16px;
+	border-radius: 5px;
+}
+
+textarea {
+	height: 17rem;
 }
