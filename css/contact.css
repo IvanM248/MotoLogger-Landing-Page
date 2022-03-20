@@ -95,19 +95,3 @@ form textarea {
 textarea {
 	height: 17rem;
 }
-
-::-webkit-scrollbar {
-    width: 13px;
-    height: 13px;
-}
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(19, 19, 19, 1);
-    border-radius: 10px;
-	box-shadow: inset;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgb(128, 128, 128);
-	box-shadow: inset;
-}
