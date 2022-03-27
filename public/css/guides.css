@@ -76,4 +76,12 @@ html {
 	.guides-container {
 		width: 80%;
 	}
+
+	.guide-image {
+		width: 38%;
+	}
+
+	.guide-image-landscape{
+		width: 68%;
+	}
 }
