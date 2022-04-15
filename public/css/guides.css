@@ -11,6 +11,10 @@ html {
 	background: var(--color-primary-gray);
 }
 
+a{
+	color: var(--color-accent);
+}
+
 .guides-container {
 	width: 50%;
 	margin: auto;
