@@ -1,1 +1,1 @@
-MotoLogger Webpage: https://motologger.app
+https://motologger.app
